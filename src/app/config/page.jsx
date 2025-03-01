@@ -19,7 +19,7 @@ export default function Config() {
       <main className="main">
 
         <div className="titulo">
-          <h1 className={`${font.className}`}> Hardware</h1>
+          <h1 className={`${font.className}`}>Nossos Hardwars</h1>
         </div>
 
 
