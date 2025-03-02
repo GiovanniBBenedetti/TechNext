@@ -1,3 +1,12 @@
+import Horizon  from "next/font/local"
+import "./style.css";
+
+const font = Horizon({
+  src: './fontes/horizon.otf'
+})
+
+
+
 export default function Home(){
     return(
         <>
@@ -31,6 +40,11 @@ export default function Home(){
     <span className="carousel-control-next-icon" aria-hidden="true" />
     <span className="visually-hidden">Next</span>
   </button>
+</div>
+
+
+<div className="conatinerOferta container">
+  <h1 className={`${font.className}`}>Nossas ofertas</h1>
 </div>
 
         </>
