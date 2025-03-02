@@ -9,10 +9,11 @@ const font = Horizon({
 
 export default function NotFound() {
   return (
-    <div className='main'>
-      <h1 className={`${font.className}`}>Opps.....</h1>
-      <p>Pagína não encontrada</p>
-      <Link href="/">Return Home</Link>
+    <div className='erro'>
+      <h1 className={`${font.className}`}>404</h1>
+      <p>Opss... Pagína não encontrada</p>
+      <img src="/Erro.png" alt="" />
+      <Link className={`Return ${font.className}`} href="/"> Voltar </Link>
     </div>
   )
 }
