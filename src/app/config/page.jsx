@@ -9,7 +9,7 @@ const font = Horizon({
 
 
 export const metadata = {
-  title: "Configuração de um pc",
+  title: "Hardwares",
 };
 
 
