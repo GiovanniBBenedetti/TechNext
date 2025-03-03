@@ -7,14 +7,14 @@ const font = Horizon({
 
 
 export const metadata = {
-  title: "Configuração de um pc",
+  title: "Periféricos",
 };
 
 
 export default function Perifericos(){
     return(
         <>
-        <div>
+        
       <main className="main">
 
         <div className="titulo">
@@ -65,7 +65,6 @@ export default function Perifericos(){
         </div>
       </main>
 
-    </div>
 
         </>
     )
