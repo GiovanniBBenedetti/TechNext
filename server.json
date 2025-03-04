@@ -26,6 +26,33 @@
              "imagem": "./b550m.jpg"
         }
       
+    ],
+    "cards1":[
+        {
+            "id": 1,
+            "nome": "Mouse Logitech G502",
+            "descricao": "Com RGB LIGHTSYNC, Ajustes de Peso, 11 Botões Programáveis e Sensor HERO 25K",
+            "imagem": "./MouseLogi.jpg"
+            
+        },
+        {
+            "id": 2,
+            "nome": "Logitech G PRO X SUPERLIGHT",
+            "descricao": "Com Tecnologia LIGHTSPEED, Ultraleve 63g, 5 Botões Programáveis, Sensor HERO 25K e Bateria Recarregável - Compatível com POWERPLAY - Rosa Magenta",
+             "imagem": "./MouseLogi2.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "MACHENIKE Teclado",
+            "descricao": "Interruptor vermelho, 61 teclas (K500-B61), teclado mecânico com retroiluminação RGB Hot Swap USB-C com fio PBT para jogos de PC e trabalho",
+             "imagem": "./TecladoMachine.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Headtset Gamer Redragon Zeus Pro",
+            "descricao":"Surround 7.1, Cabo USB-C Removível, Wireless, c/Microfone, Preto - H510-PRO",
+             "imagem": "./FoneReadragon.jpg"
+        }
+      
     ]
-    
 }
