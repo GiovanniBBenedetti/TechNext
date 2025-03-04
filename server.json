@@ -1,0 +1,31 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "nome": "Ryzen 7 5700x3d",
+            "descricao": "8 núcleos e 16 threads de processamento, combinados com uma enorme cache de 100 MB",
+            "imagem": "./Ryzen7.jpg"
+            
+        },
+        {
+            "id": 2,
+            "nome": "RTX 4070 super",
+            "descricao": "Placa de Video Gigabyte NVIDIA GeForce RTX 4070 Super Eagle OC, 12GB, GDDR6X, DLSS, Ray Tracing, GV-N407SEAGLE OC-12GD",
+             "imagem": "./Rtx-4070.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Memória Mancer Magnus",
+            "descricao": "RGB, 8GB (2X8GB) DDR4, 3200Mhz, C22, MCR-MGN8RGB-3200",
+             "imagem": "./MemoriaRam.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Placa Mãe Gigabyte B550M AORUS ELITE",
+            "descricao":"Socket: AM4, compatível com processadores AMD Ryzen. Memória: 4 slots DDR4. Conectividade de Vídeo: HDMI e DVI-D. Armazenamento: Slots M.2 NVMe.B",
+             "imagem": "./b550m.jpg"
+        }
+      
+    ]
+    
+}
