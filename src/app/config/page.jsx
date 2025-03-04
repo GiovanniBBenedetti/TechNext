@@ -41,7 +41,7 @@ export default async function Config() {
                 <div className="descricao">
                   <h2 className={`${font.className}`}>{cards.nome}</h2>
                   <p>{cards.descricao}</p>
-                  <a className="" href="#">Ver mais</a>
+                  <a className="" href={`/config/${cards.id}`}>Ver mais</a>
                 </div>
                 <img src={cards.imagem} alt="" />
               </div>
