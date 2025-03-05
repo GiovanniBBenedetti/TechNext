@@ -1,8 +1,7 @@
-
 import { redirect } from "next/navigation";
 
 export default async function DetailsCard({ params }) {
-    const { id } = params;
+    const { id } = await params;
 
  
     const response = await fetch(`http://localhost:3333/cards/${id}`);
