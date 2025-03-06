@@ -1,0 +1,18 @@
+.container-produto{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 50%;
+    align-items: center;
+}
+.container-imagem img{
+    width: 500px;
+}
