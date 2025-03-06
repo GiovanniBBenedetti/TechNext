@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import "./id.css";
 
 export default async function DetailsCard({ params }) {
     const { id } = await params;
@@ -14,9 +15,14 @@ export default async function DetailsCard({ params }) {
 
 
     return (
-        <div>
-            <h1>Card {id}</h1>
+        <div className="container-produto">
+            <div className="container-imagem">
+               <img src={`/${data.imagem}`} alt="" /> 
+            </div>
+           <div className="descricao">
+            <h1>{data.nome}</h1>
             <p>{data.descricao}</p>
+           </div>
         </div>
     );
 }
