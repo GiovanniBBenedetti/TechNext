@@ -1,21 +1,36 @@
+'use client'
+
 import "./perifericos.css";
 import Horizon  from "next/font/local"
+import { useEffect, useState } from "react";
+
 
 const font = Horizon({
   src: '../fontes/horizon.otf'
 })
 
 
-export const metadata = {
-  title: "Periféricos",
-};
 
 
-export default async function Perifericos(){
 
-  const response = await fetch('http://localhost:3333/cards1')
-  const data = await response.json()
+export default function Perifericos(){
+  
 
+
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+    async function fetchData() {
+      
+        const response = await fetch('http://localhost:3333/cards1');
+        const json = await response.json();
+        setData(json);
+    }
+  
+    fetchData();
+  }, []);
+  
+ 
 
     return(
         <>
