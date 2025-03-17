@@ -50,7 +50,7 @@ export default function Perifericos(){
 
   <div key={cards.id}>
     <div className="card">
-      <div className="descricao">
+      <div className="descricao2">
         <h2 className={`${font.className}`}>{cards.nome}</h2>
         <p>{cards.descricao}</p>
         <a className="" href={`/perifericos/${cards.id}`}>Ver mais</a>
