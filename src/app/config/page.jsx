@@ -1,25 +1,37 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link"
 import "./style.css";
 import Horizon from "next/font/local"
+import { useState, useEffect } from "react";
 
 const font = Horizon({
   src: '../fontes/horizon.otf'
 })
 
 
-export const metadata = {
-  title: "Hardwares",
-};
 
 
 
 
-export default async function Config() {
+export default  function Config() {
 
-  const response = await fetch('http://localhost:3333/cards')
-  const data = await response.json()
+  const [data, setData] = useState([])
 
+  useEffect(() => {
+    async function fetchData() {
+      
+        const response = await fetch('http://localhost:3333/cards');
+        const json = await response.json();
+        const filteredData = json.filter(item => item.categoria === "Hardware");
+        setData(filteredData);
+    }
+  
+    fetchData();
+  }, []);
+  
+ 
 
   return (
     <div>
