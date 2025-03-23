@@ -4,55 +4,57 @@
             "id": 1,
             "nome": "Ryzen 7 5700x3d",
             "descricao": "8 núcleos e 16 threads de processamento, combinados com uma enorme cache de 100 MB",
-            "imagem": "./Ryzen7.jpg"
-            
+            "imagem": "./Ryzen7.jpg",
+            "categoria": "Hardware"
         },
         {
             "id": 2,
             "nome": "RTX 4070 super",
             "descricao": "Placa de Video Gigabyte NVIDIA GeForce RTX 4070 Super Eagle OC, 12GB, GDDR6X, DLSS, Ray Tracing, GV-N407SEAGLE OC-12GD",
-             "imagem": "./Rtx-4070.jpg"
+            "imagem": "./Rtx-4070.jpg",
+            "categoria": "Hardware"
         },
         {
             "id": 3,
             "nome": "Memória Mancer Magnus",
             "descricao": "RGB, 8GB (2X8GB) DDR4, 3200Mhz, C22, MCR-MGN8RGB-3200",
-             "imagem": "./MemoriaRam.jpg"
+            "imagem": "./MemoriaRam.jpg",
+            "categoria": "Hardware"
         },
         {
             "id": 4,
             "nome": "Placa Mãe Gigabyte B550M AORUS ELITE",
-            "descricao":"Socket: AM4, compatível com processadores AMD Ryzen. Memória: 4 slots DDR4. Conectividade de Vídeo: HDMI e DVI-D. Armazenamento: Slots M.2 NVMe.B",
-             "imagem": "./b550m.jpg"
-        }
-      
-    ],
-    "cards1":[
+            "descricao": "Socket: AM4, compatível com processadores AMD Ryzen. Memória: 4 slots DDR4. Conectividade de Vídeo: HDMI e DVI-D. Armazenamento: Slots M.2 NVMe.B",
+            "imagem": "./b550m.jpg",
+            "categoria": "Hardware"
+        },
         {
-            "id": 1,
+            "id": 5,
             "nome": "Mouse Logitech G502",
             "descricao": "Com RGB LIGHTSYNC, Ajustes de Peso, 11 Botões Programáveis e Sensor HERO 25K",
-            "imagem": "./MouseLogi.jpg"
-            
+            "imagem": "./MouseLogi.jpg",
+            "categoria": "Perifericos"
         },
         {
-            "id": 2,
+            "id": 6,
             "nome": "Logitech G PRO X SUPERLIGHT",
             "descricao": "Com Tecnologia LIGHTSPEED, Ultraleve 63g, 5 Botões Programáveis, Sensor HERO 25K e Bateria Recarregável - Compatível com POWERPLAY - Rosa Magenta",
-             "imagem": "./MouseLogi2.jpg"
+            "imagem": "./MouseLogi2.jpg",
+            "categoria": "Perifericos"
         },
         {
-            "id": 3,
+            "id": 7,
             "nome": "MACHENIKE Teclado",
             "descricao": "Interruptor vermelho, 61 teclas (K500-B61), teclado mecânico com retroiluminação RGB Hot Swap USB-C com fio PBT para jogos de PC e trabalho",
-             "imagem": "./TecladoMachine.jpg"
+            "imagem": "./TecladoMachine.jpg",
+            "categoria": "Perifericos"
         },
         {
-            "id": 4,
+            "id": 8,
             "nome": "Headtset Gamer Redragon Zeus Pro",
-            "descricao":"Surround 7.1, Cabo USB-C Removível, Wireless, c/Microfone, Preto - H510-PRO",
-             "imagem": "./FoneReadragon.jpg"
+            "descricao": "Surround 7.1, Cabo USB-C Removível, Wireless, c/Microfone, Preto - H510-PRO",
+            "imagem": "./FoneReadragon.jpg",
+            "categoria": "Perifericos"
         }
-      
     ]
 }
