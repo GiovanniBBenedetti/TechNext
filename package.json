@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "server":"npx json-server server.json -w -p 3333",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
