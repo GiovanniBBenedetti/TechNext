@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Style from "./header.css"
 import Link from 'next/link';
+import Busca from '@/Componenetes/Buscar/Busca.jsx'
 
 
 export default function Header() {
@@ -75,18 +76,10 @@ export default function Header() {
                   Disabled
                 </a>
               </li>
+
+              <Busca></Busca>
             </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+    
           </div>
         </div>
       </nav>
