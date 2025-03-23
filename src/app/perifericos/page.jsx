@@ -22,9 +22,10 @@ export default function Perifericos(){
   useEffect(() => {
     async function fetchData() {
       
-        const response = await fetch('http://localhost:3333/cards1');
+        const response = await fetch('http://localhost:3333/cards');
         const json = await response.json();
-        setData(json);
+        const filteredData = json.filter(item => item.categoria === "Perifericos");
+        setData(filteredData);
     }
   
     fetchData();
