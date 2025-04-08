@@ -30,16 +30,16 @@ export default function Results() {
       <p className="text-lg">Você pesquisou por: <strong>{query}</strong></p>
 
           {produtosFiltrados.map(cards  => (
-           <div key={cards.id}>
-           <div className="">
-             <div className="">
+           <ul className="border" key={cards.id}>
+           
+             <li className="">
                <h2 className={``}>{cards.nome}</h2>
                <p>{cards.descricao}</p>
                <a className="" href={`/perifericos/${cards.id}`}>Ver mais</a>
-             </div>
-             <img src={cards.imagem} alt="" />
-           </div>
-         </div>
+             </li>
+            
+           </ul>
+      
           ))}
        
   
